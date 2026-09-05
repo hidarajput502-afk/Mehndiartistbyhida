@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mehndi Art by Hida - Bridal, Arabic, Minimal, Traditional, Festival and Rajasthani Mehndi.">
+  <title>Mehndi Art by Hida</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;background:#fffaf5;color:#3b2418;line-height:1.6}
+    header{background:linear-gradient(135deg,#5b2417,#9b4b27);color:white;padding:18px 7%;position:sticky;top:0;z-index:10}
+    nav{display:flex;justify-content:space-between;align-items:center;gap:20px}
+    .logo{font-size:25px;font-weight:800}
+    nav a{color:white;text-decoration:none;margin-left:18px;font-weight:600}
+    .hero{min-height:78vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:70px 7%;
+      background:radial-gradient(circle at top,#ffe9d8,#fffaf5 55%)}
+    .hero h1{font-size:clamp(42px,8vw,78px);margin-bottom:15px;color:#672818}
+    .hero p{font-size:20px;max-width:720px;margin:auto;color:#684b3c}
+    .buttons{margin-top:28px}
+    .btn{display:inline-block;padding:13px 23px;border-radius:30px;text-decoration:none;font-weight:700;margin:6px}
+    .primary{background:#7b321e;color:#fff}
+    .secondary{border:2px solid #7b321e;color:#7b321e}
+    section{padding:65px 7%;max-width:1200px;margin:auto}
+    .title{text-align:center;margin-bottom:35px}
+    .title h2{font-size:36px;color:#672818}
+    .title p{color:#76594b}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
+    .card{background:white;border-radius:18px;padding:28px 20px;text-align:center;box-shadow:0 6px 22px #6b321c18;border:1px solid #efd9ca}
+    .card .icon{font-size:42px;margin-bottom:12px}
+    .card h3{color:#71301d;margin-bottom:7px}
+    .price{font-weight:800;color:#a24c27;margin-top:12px}
+    .about{background:#fff0e5;border-radius:25px;text-align:center}
+    .contact{background:#6d2b1b;color:white;text-align:center;max-width:none}
+    .contact h2{font-size:35px;margin-bottom:10px}
+    footer{text-align:center;padding:22px;background:#3f1c13;color:#f9e6da}
+    @media(max-width:650px){nav{flex-direction:column}nav a{margin:0 7px;font-size:14px}.hero{min-height:70vh}}
+  </style>
+</head>
+<body>
 
+<header>
+  <nav>
+    <div class="logo">🌿 Mehndi Art by Hida</div>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#services">Designs</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div>
+      <h1>Mehndi Art by Hida</h1>
+      <p>Beautiful mehndi designs for every special occasion — elegant, traditional and made with love.</p>
+      <div class="buttons">
+        <a class="btn primary" href="#services">View Designs</a>
+        <a class="btn secondary" href="#contact">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="title">
+      <h2>Our Mehndi Designs</h2>
+      <p>Choose your favourite style</p>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="icon">👰</div><h3>Bridal Mehndi</h3><p>Detailed and elegant bridal designs.</p><div class="price">Starting ₹1,499</div></div>
+      <div class="card"><div class="icon">✨</div><h3>Minimal Mehndi</h3><p>Simple, classy and beautiful designs.</p><div class="price">Starting ₹199</div></div>
+      <div class="card"><div class="icon">🌙</div><h3>Arabic Mehndi</h3><p>Stylish floral and flowing patterns.</p><div class="price">Starting ₹299</div></div>
+      <div class="card"><div class="icon">🌸</div><h3>Traditional Mehndi</h3><p>Classic Indian mehndi patterns.</p><div class="price">Starting ₹399</div></div>
+      <div class="card"><div class="icon">🎉</div><h3>Festival Mehndi</h3><p>Perfect for Eid and festive occasions.</p><div class="price">Starting ₹249</div></div>
+      <div class="card"><div class="icon">🌺</div><h3>Rajasthani Mehndi</h3><p>Rich traditional Rajasthani detailing.</p><div class="price">Starting ₹499</div></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="about">
+      <div class="title">
+        <h2>About Mehndi Art by Hida</h2>
+        <p>Creating beautiful mehndi art for weddings, festivals, parties and special moments. Every design is crafted with care to make your occasion memorable.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Book Your Mehndi</h2>
+    <p>Ready to make your hands beautiful? Contact Mehndi Art by Hida for bookings and enquiries.</p>
+    <div class="buttons">
+      <a class="btn primary" style="background:white;color:#6d2b1b" href="tel:+910000000000">📞 Call Now</a>
+      <a class="btn secondary" style="border-color:white;color:white" href="https://wa.me/910000000000">💬 WhatsApp</a>
+    </div>
+    <p style="margin-top:15px;font-size:14px">Replace the sample phone number in this file with your WhatsApp/call number.</p>
+  </section>
+</main>
+
+<footer>© 2026 Mehndi Art by Hida • All Rights Reserved</footer>
+</body>
+</html>
